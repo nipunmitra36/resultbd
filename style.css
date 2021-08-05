@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    height: auto;
+    vertical-align: middle;
+}
+.main-wrapper{
+    width: 100%;
+}
+.wrapper{
+    margin: 50px auto;
+    width: 65%;
+    overflow: hidden;
+    display: block;
+    border: 2px solid #000000;
+}
+.row{
+    display: flex;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.col-1{
+    width:10%;
+}
+.col-2{
+    width:20%;
+}
+.col-3{
+    width:30%;
+}
+.col-4{
+    width:40%;
+}
+.col-5{
+    width:50%;
+}
+.col-6{
+    width:60%;
+}
+.col-7{
+    width:70%;
+}
+.col-8{
+    width:80%;
+}
+.col-9{
+    width:90%;
+}
+.col-10{
+    width:100%;
+}
+.first-header{
+    width: 100%;
+    border-bottom: 2px solid #228A33;
+}
+.title{
+    height: 100%;
+    display: flex ;
+    align-items: bottom;
+    justify-content: center;
+}
+.title h3{
+    padding:1rem 0.3rem .3rem .5rem;
+}
+.bg-green{
+    background-color: #007814;
+}
+.second-header h2 {
+	font-size: 1.3rem;
+}
+.third-header{
+    background: linear-gradient(#C5E1C9,#67B062,#C5E1C9);
+}
+.text-right{
+    text-align: right;
+}
+.text-white{
+    color: #ffffff;
+}
+.text-light-green{
+    color: #95E17D;
+}
+.logo-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:100%;
+    background-color: #eeeeee;
+}
+.logo-part img{
+    padding: 1rem;
+    height:120px;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 0.7rem;
+}
+.form-part{
+    border:2px solid #737373;
+    padding: 3rem;
+    margin: 0 auto;
+    width: 80%;
+   margin:3rem auto;
+}
+label{
+    color: #141414;
+    padding: 0.4rem 0rem 0rem 1rem;  
+    font-weight: 700;
+    width:40%;
+}
+input,
+select{
+    width: 60%;
+    padding: 0.4rem .2rem;
+}
+input{
+    outline: none;
+}
+.mb-1{
+    margin-bottom: 1rem;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:8px;
+}
+.btn input{
+    width:80px;
+}
+.text-img{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+}
+.footer{
+    background-color: #F2F2F2;
+    border-top:4px solid #228A33;
+    padding: 1rem;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+}
+.copyright p {
+    line-height: 40px;
+}

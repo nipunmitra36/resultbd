@@ -5,30 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    body{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .wrapper{
-        width: 100%;
-    }
-    h2{
-        color:#ff0000;
-    }
-    p{
-        color: #474747;
-    }
-</style>
 <body>
-    <div class="wrapper">
-
-    </div>
-    <h2>Welcome to my website</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed tempore magni cum! Voluptatibus, nobis. Esse in aliquid fuga aperiam enim.</p>
+        <div class="main-wrapper">
+            <div class="wrapper">
+                <div class="row header">
+                    <div class="col-2">
+                        <div class="logo-part d-flex justify-content-center align-items-center">
+                            <img src="img/bd_logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="first-header bg-green d-flex justify-content-between">
+                                <div class="title">
+                                    <h3 class="text-light-green">Ministary Of Education</h2>
+                                </div>
+                                <div class="img-part">
+                                    <img src="img/banner_flag.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-header bg-green">
+                            <div class="col-10">
+                                <h2 class="text-white p-1">Intermediate and secondary education boards Bangladesh</h2>
+                            </div>
+                        </div>
+                        <div class="third-header text-right">
+                            <div class="col-10">
+                                <p class="text-white p-2">Official website of education boards</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-part">
+                    <form action="">
+                        <div class="d-flex justify-content-between mb-1 input-part">
+                            <label for="">Examination   <span>:</span> </label>
+                            <select name="name" id="">
+                                <option value="">JSC</option>
+                                <option value="">JSC</option>
+                                <option value="">JSC</option>
+                            </select>
+                        </div>
+                        <div class="d-flex justify-content-between mb-1 input-part">
+                            <label for="">Year  <span>:</span></label>
+                            <select name="name" id="">
+                                <option value="">JSC</option>
+                                <option value="">JSC</option>
+                                <option value="">JSC</option>
+                            </select>
+                        </div>
+                        <div class="d-flex justify-content-between mb-1 input-part">
+                            <label for="">Board  <span>:</span> </label>
+                            <select name="name" id="">
+                                <option value="">JSC</option>
+                                <option value="">JSC</option>
+                                <option value="">JSC</option>
+                            </select>
+                        </div>
+                        <div class="d-flex justify-content-between mb-1 input-part">
+                            <label for="">Roll  <span>:</span> </label>
+                            <input type="number" name="" id="">
+                        </div>
+                        <div class="d-flex justify-content-between mb-1 input-part">
+                            <label for="">Reg: No <span>:</span> </label>
+                            <input type="number" name="" id="">
+                        </div>
+                        <div class="d-flex justify-content-between mb-1 input-part">
+                            <label for="">6+7 <span>=</span> </label>
+                            <input type="number" name="" id="">
+                        </div>
+                        <div class="btn">
+                            <input type="reset" value="Reset">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <footer>
+                    <div class="row footer">
+                        <div class="col-6">
+                            <div class="copyright">
+                                <p>©2005-2020 Ministray education board,All right reserved</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="text-img">
+                                <p>powerd by</p>
+                                <img src="img/tbl_logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
 </body>
 </html>

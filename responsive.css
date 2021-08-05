@@ -1,0 +1,136 @@
+@media(max-width:1200px){
+    .wrapper{
+        width:75%;
+    }
+}
+@media(max-width:992px){
+    .wrapper{
+        width:90%;
+    }
+}
+@media(max-width:768px){
+    .wrapper{
+        width:95%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer .col-6{
+        width: 100%;
+    }
+    footer .col-4{
+        width: 100%;
+    }
+    footer .copyright{
+        justify-content: center;
+    }
+    footer .text-img{
+        justify-content: center;
+    }
+}
+@media(max-width:576px){
+    .wrapper{
+        margin:0 auto;
+        width:100%;
+    }
+    .title h3 {
+        font-size: 16px;
+    }
+    .second-header h2 {
+        font-size: 15px;
+    }
+    .input-part{
+        display: block;
+    }
+    input, select {
+        width: 100%;
+        padding: 0.4rem .2rem;
+    }
+    .form-part {
+        margin: 3rem auto;
+    }
+    label {
+        color: #141414;
+        padding: 0.4rem 0rem 0rem 1rem;
+        font-weight: 700;
+        /* width: 40%; */
+        width: 100%;
+        padding: 0.3rem 0;
+        display: block;
+    }
+    .form-part {
+        border: 2px solid #737373;
+        padding: 1.5rem;
+        margin: 0 auto;
+        width: 80%;
+        margin: 3rem auto;
+    }
+    .copyright p {
+        line-height: 40px;
+        text-align: center;
+    }
+    .btn{
+        justify-content: center;
+}
+@media(max-width:434px){
+    .copyright{
+        font-size: 14px;
+    }
+    .text-img p{
+        font-size: 14px;
+    }
+}
+@media(max-width:320px){
+    input, select {
+        width: 100%;
+        padding: 0.4rem .2rem;
+    }
+    .form-part {
+        margin: 3rem auto;
+    }
+    label {
+        color: #141414;
+        padding: 0.4rem 0rem 0rem 1rem;
+        font-weight: 700;
+        /* width: 40%; */
+        width: 100%;
+        padding: 0.3rem 0;
+        display: block;
+    }
+    .form-part {
+        border: 2px solid #737373;
+        padding: 1.5rem;
+        margin: 0 auto;
+        width: 80%;
+        margin: 3rem auto;
+    }
+    .copyright p {
+        line-height: 40px;
+        text-align: center;
+    }
+    .btn{
+        justify-content: center;
+    }
+        .header{
+            text-align: center;
+            display: block;
+        }
+        .header .col-2{
+            width: 100%;
+        }
+        .header .col-8{
+            width: 100%;
+        }
+        .header-title h3{
+            width: 100%;
+        }
+        .header .img-part{
+            display: none;
+        }
+        .header .third-header p {
+            text-align: center;
+        }
+    }
+}
